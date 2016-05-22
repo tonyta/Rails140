@@ -13,3 +13,10 @@ module Rails140
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+class HelloController < ActionController::Base
+  protect_from_forgery with: :exception
+  def index
+    render plain: "Hello! It's #{ Time.current }"
+  end
+end
