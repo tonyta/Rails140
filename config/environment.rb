@@ -1,9 +1,4 @@
-ENV['BUNDLE_GEMFILE'] ||= File.expand_path('../Gemfile', __dir__)
-require 'bundler/setup' # Set up gems listed in the Gemfile.
-
 require "action_controller/railtie"
-
-Bundler.require(*Rails.groups)
 
 module Rails140
   class Application < Rails::Application
