@@ -1,9 +1,7 @@
 require "action_controller/railtie"
 
-module Rails140
-  class Application < Rails::Application
-    config.secret_key_base = "x"
-  end
+Class.new Rails::Application do
+  config.secret_key_base = "x"
 end
 
 Rails.application.initialize!
