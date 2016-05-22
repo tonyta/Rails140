@@ -1,24 +1,9 @@
-# README
+# Rails140
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Deconstructing a brand-new, shiny Rails 5 app down to its absolute minimum size
+commit-by-commit, with explanations along the way.
 
-Things you may want to cover:
+On every commit, the server can be run and will respond.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This repo is inspired by Nate Berkopec's RailsConf 2016 talk:
+[Make a Rails App with 140 Characters (or less)](http://confreaks.tv/videos/railsconf2016-make-a-rails-app-with-140-characters-or-less)
