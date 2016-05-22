@@ -1,5 +1,10 @@
 # Rails140
 
+``` bash
+rackup -r action_controller/railtie \
+  -b "run Class.new(Rails::Application){config.secret_key_base=?x}.initialize!"
+```
+
 Deconstructing a brand-new, shiny Rails 5 app down to its absolute minimum size
 commit-by-commit, with explanations along the way.
 
